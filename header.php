@@ -28,4 +28,4 @@
 				<a style="float: left;" href="#">SOBRE</a>
 				<a href="<?php bloginfo('url'); ?>"><img style="width: 184px; height: 24px;" src="<?php bloginfo('template_directory'); ?>/img/logo-menu.png"></a>
 			</div>
-		</div>
+		</div>AAAAAAAAAAAAAA
