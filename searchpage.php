@@ -27,6 +27,6 @@ Template Name: Página de Busca
 
 <div class="corpo">
 	<div class="conteudo">
-	blsablsawfwer
+	
 		 
 <?php get_footer(); ?>
