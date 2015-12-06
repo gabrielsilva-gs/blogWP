@@ -1,0 +1,340 @@
+/*
+	Theme Name: BielWP
+	Theme URI: http://www.bielboyster.com/blog/
+	Description: Tema desenvolvido para o Blog do bielboyster.
+	Author: Gabriel Silva
+	Author URI: http://www.bielboyster.com/
+	Version: 0.1 - 10/08/2014
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f3f3f3;
+	font-family: Roboto, Arial, Helvetica, sans-serif; 
+	margin: 0 auto;
+}
+
+/* MENU */
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	background-color: #393939;
+}
+
+.navbar a {
+	text-decoration: none;
+	font-size: 13.5px;
+	font-weight: 300;
+	color: #cccccc;
+	transition: all 0.1s linear;
+}
+
+.navbar img {
+	margin-top: 13px;
+	margin-left: -40px;
+}
+
+.navbar a:hover, .navbar a:focus {
+	color: #f3f3f3;
+}
+
+.navbar-wrapper {
+	width: 1160px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+	.navbar {
+		
+	}
+
+	.navbar a {
+		
+	}
+
+	.navbar-wrapper {
+		
+	}
+
+	.navbar img {
+		
+	}
+}
+
+/* FIM DO MENU */
+
+/* CONTEÚDO */
+
+.conteudo {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.anuncio1 {
+	margin: 20px 0 20px 0;
+}
+
+/* POSTS */
+
+.artigos {
+	width: 728px;
+	height: auto;
+}
+
+.artigo {
+	text-align: justify;
+	margin: 0 0 40px 0;
+}
+
+.sticky {
+	border: 1px #cccccc;
+}
+
+.artigo h1, .artigo h1 a {
+	font-size: 40px;
+	font-weight: 900;
+	text-decoration: none;
+	letter-spacing: -2px;
+	line-height: 40px;
+	margin: 0 0 20px 0;
+	color: #000000;
+	transition: all 0.1s linear;
+}
+
+.artigo h1:hover, .artigo h1 a:hover, .artigo h1:focus, .artigo h1 a:focus {
+	color: #232323;
+}
+
+.artigo p {
+	margin-bottom: 15px;
+}
+
+.read-more {
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.read-more-wrapper {
+	margin: 10px 0px 10px 0px;
+	width: 300px;
+	height: 45px;
+	background-color: #393939;
+	text-align: center;
+	transition: all 0.1s linear;
+}
+
+.read-more-wrapper:hover {
+	background-color: #232323;
+}
+
+.post-info {
+	margin: -10px 0px 10px 0;
+	font-size: 16px;
+	letter-spacing: -1px;
+	color: #cccccc;
+}
+
+.post-info a {
+	text-decoration: none;
+	color: #cccccc;
+	transition: all 0.1s linear;
+}
+
+.post-info a:hover {
+	color: #393939;
+}
+
+/* FIM DOS POSTS */
+
+/* FIM DO CONTEÚDO */
+
+/* FOOTER */
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-color: #393939;
+	clear: both;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+.wrapper-footer {
+	width: 1200px;
+}
+
+.logo-footer {
+	float: left;
+	width: 275px;
+	height: 26px;
+	margin-top: 37px;
+	background: url(img/logo-footer.png);
+	transition: all 0.1s linear;
+}
+
+.logo-footer:hover, .logo-footer:focus {
+	background: url(img/logo-footer-hover.png);
+}
+
+.wrapper-footer p {
+	float: right;
+	font-size: 13px;
+	color: #cccccc;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 300;
+	line-height: 100px;
+}
+
+/* FIM DO FOOTER */
+
+
+/* ESTILOS-PADRÃO DO WP */
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+ 	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.wp-caption {
+	background: #EBEBEB;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+
+blockquote {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-style: italic;
+	width: 450px;
+	margin-left: 25px;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
+	background: #ececec;
+}
+
+blockquote:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -10px;
+	top: -10px;
+	color: #7a7a7a;
+}
+
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+
+/* FIM DOS ESTILOS-PADRÃO DO WP! */
