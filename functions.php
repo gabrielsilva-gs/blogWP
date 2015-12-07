@@ -3,7 +3,7 @@
  * Funções e definições do BielWP
  *
  * @package BielWP
- * @since BielWP 1.0
+ * @since BielWP 2.0
  */
 
 /* ESTILOS E SCRIPTS */
